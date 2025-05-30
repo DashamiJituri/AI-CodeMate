@@ -1,59 +1,47 @@
-# AI-CodeMate: Titanic Survival Prediction
+# AI-CodeMate: Titanic Survival Prediction & Financial Chatbot
 
-This project is part of an internship task focused on Exploratory Data Analysis (EDA) using the Titanic dataset. The goal is to uncover survival patterns using Python tools like pandas and matplotlib.
-
----
-
-## 📊 Task Summary
-
-- **Dataset Used**: Titanic - Machine Learning from Disaster (Kaggle)
-- **Tools**: Python, pandas, matplotlib, seaborn, Jupyter Notebook
+This project is part of an internship task series involving:
+- **Exploratory Data Analysis (EDA)** on the Titanic dataset.
+- **Model creation** to predict survival using logistic regression.
+- **A basic rule-based chatbot** to answer predefined financial queries.
 
 ---
 
-## 🔍 What I Did
+## 📌 Task Summary
 
-1. Loaded the Titanic dataset (`titanic.csv`)
-2. Cleaned the data (handled missing values and corrected data types)
-3. Analyzed survival patterns based on:
-   - Gender
-   - Passenger class (Pclass)
-   - Age, family size, and port of embarkation
-4. Visualized findings using bar plots, histograms, and heatmaps
+### ✅ Task 1: EDA on Titanic Dataset
+Performed exploratory analysis using pandas, matplotlib, and seaborn to uncover survival patterns.
 
----
+### ✅ Task 2: Logistic Regression Model
+Built and evaluated a logistic regression model to predict passenger survival based on selected features.
 
-## 📁 Files in This Repo
+### ✅ Task 3: Model Deployment (Optional)
+Saved the trained model (`titanic_logistic_model.pkl`) using `joblib` for later use.
 
-| File Name | Description |
-|-----------|-------------|
-| `titanic.csv` | Titanic dataset used for EDA |
-| `titanic_task2.ipynb` | Jupyter Notebook for data exploration |
-| `app.py` | Script placeholder |
-| `README.md` | Project summary and links |
+### ✅ Task 4: Financial Chatbot (Rule-Based)
+Created a simple Python chatbot that can answer predefined financial questions like:
+- "What is the total revenue?"
+- "How has net income changed over the last year?"
+- "What is the profit margin?"
+
+> This was implemented as a basic script to simulate interaction and demonstrate logic handling with conditional statements.
 
 ---
 
-## 📽️ Demo Video
+## 📁 Files
 
-Watch the video here: [Demo Video on Google Drive](https://drive.google.com)
-
-## 🚀 Live App
-
-Try the app here: [AI CodeMate on Streamlit](https://streamlit.io)
-
----
-
-## 💡 Key Learnings
-
-- Gender and class significantly influenced survival
-- Data cleaning is critical before analysis
-- Visualization makes interpretation easier
+- `titanic_task2.ipynb`: Notebook containing all tasks including the chatbot implementation.
+- `titanic.csv`: Titanic dataset.
+- `titanic_logistic_model.pkl`: Saved model from Task 2.
+- `README.md`: This file.
 
 ---
 
-## 🔮 Future Work
+## 🚀 Key Learnings
 
-- Add machine learning models (e.g. Logistic Regression)
-- Deploy a full interactive dashboard using Streamlit
+- Exploratory data analysis using pandas and matplotlib.
+- Model creation and evaluation using scikit-learn.
+- Basics of saving models and creating simple chatbots with Python.
+
+---
 
