@@ -43,10 +43,20 @@ Created a simple Python chatbot that can answer predefined financial questions l
 - Model creation and evaluation using scikit-learn.
 - Basics of saving models and creating simple chatbots with Python.
 
----
+## Task 5: Decision Trees & Random Forests
 
-<<<<<<< HEAD
-=======
+- **Objective:** Implement classification models using Decision Trees and Random Forests.
+- **Dataset:** Heart Disease Dataset (or Titanic dataset)
+- **Steps:**
+  1. Loaded and preprocessed the dataset.
+  2. Trained a Decision Tree and visualized it.
+  3. Controlled overfitting using max depth and pruning.
+  4. Trained a Random Forest classifier.
+  5. Compared performance using confusion matrix.
+  6. Evaluated with cross-validation.
+  7. Displayed feature importances.
 
+- **Results:**
+  - Accuracy: XX% (based on your model)
+  - Confusion Matrix used for visual evaluation
 
->>>>>>> 850bc3009301a603c021913c25182d9be2efdba3
