@@ -59,4 +59,24 @@ Created a simple Python chatbot that can answer predefined financial questions l
 - **Results:**
   - Accuracy: XX% (based on your model)
   - Confusion Matrix used for visual evaluation
+ 
+### 🎮 Python Game Project
+
+A simple game developed using Python and Pygame, showcasing fundamental game development concepts.
+
+## 🚀 Features
+
+- Basic game loop implementation
+- Player controls and interactions
+- Collision detection
+- Score tracking
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
+
 
